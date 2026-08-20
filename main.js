@@ -129,10 +129,10 @@ function iterateNumbers() {
             td2.style.width = "70px";
 
             if(numbersArr[i] %2 == 0) {
-                td2.style.color = "green";
+                td2.style.color = "yellow";
                 td2.innerHTML = "EVEN";
             } else {
-                td2.style.color = "blue";
+                td2.style.color = "purple";
                 td2.innerHTML = "ODD";
             }
 
